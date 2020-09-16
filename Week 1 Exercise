@@ -1,0 +1,48 @@
+###
+Keeping Historical Copies
+###
+Qns: What’s the goal of a version control system?
+
+Ans: To keep track of changes made to our files
+
+###
+Diffing Files
+###
+Qns: What’s the goal of the diff tool?
+
+Ans: To show the differences between two files
+
+###
+Applying Changes
+###
+Qns: What does the patch command do?
+
+Ans: It applies the changes contained in a diff file to another file.
+
+###
+Practical Application of diff and patch
+###
+Qns: We've prepared a diff file with the changes that need to be applied to the script. What does our colleague need to do now?
+
+Ans: Run patch disk_usage.py < disk_usage.diff.
+
+###
+
+###
+Qns: 
+
+Ans:
+
+###
+
+###
+Qns: 
+
+Ans:
+
+###
+
+###
+Qns: 
+
+Ans:
