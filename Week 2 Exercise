@@ -22,92 +22,64 @@ Qns: If we need to delete a file from our repository, we'll need to run a comman
 Ans: git rm
 
 ###
+Undoing Changes Before Committing
+###
+Qns: What is the purpose of the git checkout command?
+
+Ans: It reverts changes to modified files before they are staged.
 
 ###
-Qns:
+Amending Commits
+###
+Qns: What does the git commit --amend do?
 
-Ans:
+Ans: Overwrite the previous commit.
 
 ###
+Rollbacks
+###
+Qns: Which of the following is true about the git revert command?
+
+Ans: It creates a new commit with inverse changes.
 
 ###
-Qns:
+Identifying a Commit
+###
+Qns: Which of the following is NOT true about the SHA1 hash numbers that Git uses to identify commits?
 
-Ans:
+Ans: Git requires the entire hash ID to identify a commit.
 
 ###
+What is a branch?
+###
+Qns: What is the purpose of organizing repositories into branches?
+
+Ans: To enable changes to be worked on without disrupting the most current working state.
 
 ###
-Qns:
+Creating New Branches
+###
+Qns: What does the git checkout -b new branch command do?
 
-Ans:
+Ans: Creates a new branch and switches to it.
 
 ###
+Working with Branches
+###
+Qns: How does git checkout switch branches?
+
+Ans: By updating the working tree to match the selected branch.
 
 ###
-Qns:
+Merging
+###
+Qns: What happens when we merge two branches?
 
-Ans:
+Ans: Both branches are pointed at the same commit.
 
 ###
-
+Merge Conflicts
 ###
-Qns:
+Qns: What's the advantage of Git throwing a merge conflict error in cases of overlap?
 
-Ans:
-
-###
-
-###
-Qns:
-
-Ans:
-
-###
-
-###
-Qns:
-
-Ans:
-
-###
-
-###
-Qns:
-
-Ans:
-
-###
-
-###
-Qns:
-
-Ans:
-
-###
-
-###
-Qns:
-
-Ans:
-
-###
-
-###
-Qns:
-
-Ans:
-
-###
-
-###
-Qns:
-
-Ans:
-
-###
-
-###
-Qns:
-
-Ans:
+Ans: It prevents loss of work if two lines overlap.
