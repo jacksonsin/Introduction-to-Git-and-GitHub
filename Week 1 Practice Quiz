@@ -52,3 +52,29 @@ Question 5
 Within a VCS, project files are organized in centralized locations called _____ where they can be called upon later.
 
 Ans: repositories
+
+<Practice Quiz: Using Git>
+Question 1
+Before changes in new files can be added to the Git directory, what command will tell Git to track our file in the list of changes to be committed?
+
+Ans: git add
+
+Question 2
+Which command would we use to review the commit history for our project?
+
+Ans: git log
+
+Question 3
+What command would we use to make Git track our file?
+
+Ans: git add
+
+Question 4
+Which command would we use to look at our config?
+
+Ans: git config -l
+
+Question 5
+Which command would we use to view pending changes?
+
+Ans: git status
