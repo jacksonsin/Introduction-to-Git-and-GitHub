@@ -1,0 +1,84 @@
+<Install Git>
+1. Before you install Git on your Linux VM, you need to first make sure that you have a fresh index of the packages available to you. To do that, run:
+sudo apt update
+
+2. Now, you can install Git on your Linux host using apt by running the following command:
+sudo apt install git
+
+3. For any prompts, continue by clicking Y.
+Check the installed version of git by using the command below:
+git --version
+
+<Initialize a new repository>
+1. Create a directory to store your project in. To do this, use the following command:
+mkdir my-git-repo
+
+2. Now navigate to the directory you created.
+cd my-git-repo
+
+3. Next, initialize a new repository by using the following command:
+git init
+
+<Configure Git>
+1. Git uses a username to associate commits with an identity. It does this by using the git config command. To set Git username use the following command:
+git config --global user.name "Name"
+
+2. Replace Name with your name. Any future commits you push to GitHub from the command line will now be represented by this name. You can use git config to even change the name associated with your Git commits. This will only affect future commits and won't change the name used for past commits.
+Let's set your email address to associate it with your Git commits.
+git config --global user.email "user@example.com"
+
+3. Replace user@example.com with your email-id. Any future commits you now push to GitHub will be associated with this email address. You can even use git config to change the user email associated with your Git commits.
+
+<Git Operations>
+1. Let's now create a text file named README. We will be using the nano editor for this.
+nano README
+
+2. Type any text within the file, or you can use the following text:
+This is my first repository.
+
+3. Save the file
+Ctrl-o, Enter key, and Ctrl-x.
+
+4. We can check the status using the following command:
+git status
+
+5. Now let's add the file to the staging area using the following command:
+git add README
+
+6. Commit the changes using the following command:
+git commit
+
+7. Enter the commit message of your choice or you can use the following text:
+This is my first commit!
+
+8. Save it by pressing 
+Ctrl-o and Enter key. To exit click Ctrl-x.
+
+9. Open the file README using nano editor.
+nano README
+
+10. Now add another line of description for your repository below the earlier entered line. Add the description of your choice or you can use the following text:
+
+A repository is a location where all the files of a particular project are stored.
+
+11. Save and exit the editor by pressing 
+Ctrl-o, Enter key, and Ctrl-x.
+
+12. Now, let's repeat the previous process. As mentioned earlier, you can always check the status of your repository by using:
+git status
+
+13. Git tracks the changes and displays that the file has been modified. You can view the changes made to file using the following command:
+git diff README
+
+14. Now, we will add these changes to the staging area.
+git add README
+
+15. View the status of the repository using the following command:
+git status
+
+16. Let's commit the file now by entering the commit message with the command itself, unlike the previous commit.
+git commit -m "This is my second commit."
+
+17. To view all the commits use the following command:
+git log
+
