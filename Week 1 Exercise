@@ -59,36 +59,29 @@ Qns: What’s the command that you need to run to check what version of Git is c
 Ans: git --version
 
 ###
+First Steps with Git
+###
+Qns: What are the git directory and the working tree?
+
+Ans: The git directory contains all the changes and their history and the working tree contains the current versions of the files.
 
 ###
-Qns: 
+Tracking Files
+###
+Qns: What do we need to do after modifying a file tracked by Git?
 
-Ans:
+Ans: We need to stage the file, so that the changes will be included in the next commit.
 
 ###
+The Basic Git Workflow
+###
+Qns: When committing new files or changes with git commit, the user is asked to provide a commit message. What will happen if an empty commit message is entered?
+
+Ans: The commit will be aborted.
 
 ###
-Qns: 
-
-Ans:
-
+Anatomy of a Commit Message
 ###
+Qns: What should your commit message look like?
 
-###
-Qns: 
-
-Ans:
-
-###
-
-###
-Qns: 
-
-Ans:
-
-###
-
-###
-Qns: 
-
-Ans:
+Ans: A short description of the change (up to 50 characters), followed by one or more paragraphs giving more details of the change (if needed).
