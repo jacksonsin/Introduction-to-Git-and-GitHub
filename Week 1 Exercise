@@ -27,6 +27,52 @@ Qns: We've prepared a diff file with the changes that need to be applied to the 
 Ans: Run patch disk_usage.py < disk_usage.diff.
 
 ###
+What is version control?
+###
+Qns: What does a version control system do?
+
+Ans: It keeps track of changes we do to our files.
+
+###
+Version Control and Automation
+###
+Qns: Why is a version control system useful, even if it's used only by a single person? Check all that apply.
+
+Ans:
+-Seeing the history of the changes helps us understand what changed and why.
+-Tracking changes allows for easy rollbacks when a problem is detected.
+
+###
+What is Git?
+###
+Qns: What characteristics make Git particularly powerful? Check all that apply.
+
+Ans:
+-It's a distributed VCS, which means that each developer has a full copy of the repository.
+-Repositories can be used by as many developers as needed.
+
+###
+Installing Git
+###
+Qns: What’s the command that you need to run to check what version of Git is currently installed in your computer?
+
+Ans: git --version
+
+###
+
+###
+Qns: 
+
+Ans:
+
+###
+
+###
+Qns: 
+
+Ans:
+
+###
 
 ###
 Qns: 
