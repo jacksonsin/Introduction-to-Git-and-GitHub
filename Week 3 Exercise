@@ -1,0 +1,97 @@
+###
+Which BEST describes GitHub?
+###
+Qns: Which BEST describes GitHub?
+
+Ans: A remote repository hosting service for Git
+
+###
+Basic Interaction with GitHub
+###
+Qns: After making changes to our local repository, how do we update the remote repository to reflect our changes?
+
+Ans: Use the git push command to send snapshots to the remote repository.
+
+###
+What is a remote?
+###
+Qns: What will happen if the master repository receives a major update since the last local copy was synced?
+
+Ans: Git will let you know it's time for an update.
+
+###
+Working with Remotes
+###
+Qns: If we want to make a change to a remote branch, what must we do?
+
+Ans: Pull the remote branch, merge it with the local branch, then push it back to its origin.
+
+###
+Fetching New Changes
+###
+Qns: What’s the main difference between git fetch and git pull?
+
+Ans: git fetch fetches remote updates but doesn't merge; git pull fetches remote updates and merges.
+
+###
+Updating the Local Repository
+### 
+Qns: Assuming no merge conflicts, which type of merge does git pull perform automatically?
+
+Ans: Fast-forward merge
+
+###
+
+###
+Qns:
+
+Ans:
+
+###
+
+###
+Qns:
+
+Ans:
+
+###
+
+###
+Qns:
+
+Ans:
+
+###
+
+###
+Qns:
+
+Ans:
+
+###
+
+###
+Qns:
+
+Ans:
+
+###
+
+###
+Qns:
+
+Ans:
+
+###
+
+###
+Qns:
+
+Ans:
+
+###
+
+###
+Qns:
+
+Ans:
