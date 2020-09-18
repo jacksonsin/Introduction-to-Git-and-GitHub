@@ -41,57 +41,37 @@ Qns: Assuming no merge conflicts, which type of merge does git pull perform auto
 Ans: Fast-forward merge
 
 ###
+The Pull-Merge-Push Workflow
+###
+Qns: What should you do with the <<<<<<<, =======, and >>>>>>> conflict markers when resolving a merge conflict?
+
+Ans: Remove all of the conflict markers and only leave the code as it should be after the merge.
 
 ###
-Qns:
+Pushing Remote Branches
+###
+Qns: How do you switch to a new local branch?
 
-Ans:
+Ans: git checkout -b <branch name>
 
 ###
+Rebasing Your Changes
+###
+Qns: What does “git rebase refactor” do?
+
+Ans: Move the current branch on top of the refactor branch
 
 ###
-Qns:
+Another Rebasing Example
+###
+Qns: Generally, git rebase is an alternative to which command?
 
-Ans:
+Ans: git merge
 
 ###
-
+Best Practices for Collaboration
 ###
-Qns:
+Qns: Which of the following statements is true regarding best practices for collaboration?
 
-Ans:
+Ans: Always synchronize your branches before starting any work on your own.
 
-###
-
-###
-Qns:
-
-Ans:
-
-###
-
-###
-Qns:
-
-Ans:
-
-###
-
-###
-Qns:
-
-Ans:
-
-###
-
-###
-Qns:
-
-Ans:
-
-###
-
-###
-Qns:
-
-Ans:
